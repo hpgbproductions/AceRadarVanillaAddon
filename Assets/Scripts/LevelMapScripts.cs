@@ -48,6 +48,11 @@ public class LevelMapScripts : MonoBehaviour
 
     private void Update()
     {
+        if (!backend.Initialized)
+        {
+            return;
+        }
+
         LevelName = ServiceProvider.Instance.GameState.CurrentLevelName;
         InLevel = ServiceProvider.Instance.GameState.IsInLevel;
         InDesigner = ServiceProvider.Instance.GameState.IsInDesigner;
