@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModManifest buildID="18d6e542-830c-489d-bb59-df518d66ed3c">
+  <Mod name="AceRadar Vanilla Addon" author="hpgbproductions" versionMajor="1" versionMinor="0" loadPriority="1000" lastUpdated="2021-06-12T14:02:06.8092616Z" apiVersion="1.0.0.0" description="Load AceRadar before loading this mod!&#xA;&#xA;Sets radar blip styling for the vanilla levels.">
+    <Steam title="" visibility="Public" previewPath="" language="English" tags="">
+      <description></description>
+    </Steam>
+    <GameObjects>
+      <GameObject name="AceRadarVanillaAddon" path="Assets/_ModAssets_/AceRadarVanillaAddon.prefab" />
+    </GameObjects>
+    <Assets />
+    <MaterialShaderMap />
+    <Assemblies>
+      <Assembly name="AceRadarVanillaAddon-Assembly-CSharp.dll" path="Assets/_ModAssets_/AceRadarVanillaAddon-Assembly-CSharp.dll.bytes" isProjectAssembly="true" />
+    </Assemblies>
+    <Sections>
+      <SimplePlanesMod apiVersion="1.0.0.0">
+        <Maps />
+        <Levels />
+        <Parts />
+        <DesignerPlugins />
+        <MapPlugins />
+        <PersistentObjects>
+          <PersistentObject objectName="AceRadarVanillaAddon" />
+        </PersistentObjects>
+      </SimplePlanesMod>
+    </Sections>
+  </Mod>
+</ModManifest>
